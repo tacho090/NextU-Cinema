@@ -1,0 +1,214 @@
+/***********Body**************/
+
+.cinema-body{
+  background-image: url('../img/fondo.jpg');
+  background-attachment: scroll;
+  background-position: center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  width:100%;
+  height:100%;
+}
+/******************************************/
+
+
+/***********Barra de navegación**************/
+
+.navigation{
+  display:block;
+  height:10vh;
+  min-height:10%;
+  width:100%;
+  margin:auto;
+  /*background: gray;*/
+  background-color:rgba(8, 45, 94, 0.95);
+  border:none;
+}
+
+.logo-img{
+  width:4%;
+  height:70%;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/******************************************/
+
+
+/***********Container**************/
+.container-fluid{
+    /*display:block;*/
+    /*margin-top:64px;*/
+    /*background: red;*/
+}
+
+/***********Jumbotron**************/
+
+.jumbotron{
+  min-height:500px;
+  /*height:500px;*/
+  margin-top:0px;
+  margin-bottom: 0px;
+  border-radius: 0px !important;
+  background-image: url('../img/cartelera.jpg');
+  background-attachment: scroll;
+  background-position: center center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  height:100%;
+}
+
+.jumbotron-img{
+  margin-top:20px;
+  width:220px;
+}
+
+.img-social{
+  height:40px;
+  width:40px;
+}
+
+.jumbotron-text{
+  font-size:16px;
+  color:#FFFFFF;
+  margin-top:20px;
+}
+
+.img-movies {
+  height: 260px;
+  padding: 6px;
+  margin-top: 22px;
+}
+
+.movie-title {
+  color: #FFFFFF;
+}
+
+.welcome-title{
+  color:#FFFFFF;
+  margin-right:10px;
+}
+
+/*///////////////////////////////*/
+
+/***********Titulo cartelera**************/
+.titulo-text{
+  font-size: 18px;
+  font-weight: bold;
+  color:#FFFFFF;
+  padding: 10px;
+}
+
+.redes-sociales{
+  margin-top:20px;
+}
+
+.titulo-cartelera{
+  min-height:35px;
+  background:rgba(8, 45, 94, 0.95);
+}
+
+.movies-row{
+  background:rgba(0, 0, 0, 0.8);
+  min-height:380px;
+  /*height:350px;*/
+  padding-right:15px;
+  padding-left: 15px;
+  color:#FFFFFF;
+}
+
+.img-movies{
+  height:260px;
+  padding:6px;
+  margin-top:22px;
+}
+
+.movies-column{
+  margin-top:5px;
+  min-height:330px;
+  border-width:1px;
+  border-style:dashed;
+  border-color:#FFFFFF;
+}
+
+.movie-title{
+  color:#FFFFFF;
+}
+
+.left-column{
+  border-right: 1px dashed yellow;
+}
+
+.services-text{
+  color: #FFFFFF;
+  margin-top: 13px;
+}
+
+.user_data{
+  margin-top:10px;
+  font-size:18px;
+  color:#FFFFFF !important;
+}
+
+.input-element{
+  width:100%;
+  height:28px;
+  padding:10px;
+  color:#FFFFFF;
+  background-color: rgba(255,255,255,0.4);
+  border-radius:4px;
+  border:none;
+  margin-top:5px;
+}
+
+.label-class{
+  color:#FFFFFF;
+  font-size:13px;
+  margin-right:10px;
+}
+
+.btn-save{
+  width:40%;
+  background-color: rgba(8, 45, 94, 0.95);
+  color:#FFFFFF;
+}
+
+@media screen and (max-width:770px){
+
+  h2{
+    font-size: 22px;
+  }
+
+  .titulo-text{
+    font-size:15px;
+  }
+
+  .right-column{
+      display:none;
+
+  }
+
+  .container-fluid{
+    margin-top: 60px;
+  }
+
+  .movies-row{
+    padding-left: 0px;
+    padding-right: 0px;
+    min-height: 400px;
+  }
+  .movies-column{
+    min-height: 230px;
+  }
+  .jumbotron{
+    min-height: 380px;
+  }
+  .jumbotron-img{
+    width:150px;
+    margin-top: 20px;
+  }
+  .titulo-cartelera{
+    font-size: 15px;
+  }
+}
